@@ -5,15 +5,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-100">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <Image
-            src="/img/tania.jpg"
-            alt="Profile"
-            width={300}
-            height={300}
-          />
-        </div>
-        <div className="w-full md:w-1/2 md:pl-12 text-center md:text-left">
+      <div className="w-full md:w-1/2 md:pl-12 text-center md:text-left">
           <h2 className="text-4xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-lg mb-4 text-gray-700">
             I am a dedicated web developer with a strong background in front-end technologies. I enjoy creating seamless and engaging user experiences. I have worked on various projects, from small business websites to large-scale web applications.
@@ -36,6 +28,17 @@ const About = () => {
             </div>
           </div>
         </div>
+        <br /><br /><br /><br />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
+          <Image
+            src="/img/taniaa.jpeg"
+            alt="Profile"
+            width={300}
+            height={300}
+            className="rounded-lg shadow-lg"
+          />
+        </div>
+        
       </div>
     </section>
   );
